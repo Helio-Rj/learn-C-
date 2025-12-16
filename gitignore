@@ -1,0 +1,87 @@
+# Compilados (objetos, libs, executáveis)
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Arquivos de build
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.dsym/
+*.stackdump
+
+# Cache e temporários
+*.tmp
+*.temp
+*.log
+*.cache
+*.pch
+*.gch
+
+# Diretórios de build comuns
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio / MSVC
+*.vcxproj*
+*.sln
+*.user
+*.suo
+*.ipch
+*.db
+*.opendb
+*.unsuccessfulbuild
+.vs/
+
+# Conan (gerenciador de pacotes)
+conanbuildinfo.txt
+conanbuildinfo.cmake
+conaninfo.txt
+conan.lock
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Sanitizers
+*.lsan
+*.tsan
+*.asan
+
+# Outros
+*~
+.DS_Store
+Thumbs.db
